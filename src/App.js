@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          <h1>Does this work</h1>
+          <img src="KomischeKatzen.png"/>
         </div>
       </header>
     </div>
