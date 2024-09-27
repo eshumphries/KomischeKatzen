@@ -1,19 +1,6 @@
 import React from 'react';
 import './App.css';
-import useScreenSize from './useScreenSize';
-import './styles.css';
 import logo from './KomischeKatzenLogo.png';
-
-const App = () => {
-  const screenSize = useScreenSize();
-
-  return (
-    <div className={`container ${screenSize}`}>
-      <h1>Responsive React App</h1>
-      <p>Current screen size: {screenSize}</p>
-    </div>
-  );
-};
 
 function App() {
   return (
