@@ -1,5 +1,6 @@
 import React from 'react';
 // import './App.css';
+import useScreenSize from './useScreenSize';
 import './styles.css';
 // import logo from './KomischeKatzenLogo.png';
 
