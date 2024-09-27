@@ -1,22 +1,29 @@
-import './App.css';
-import logo from './KomischeKatzenLogo.png';
-import { useMediaQuery } from 'react-responsive';
+import React from 'react';
+// import './App.css';
+import './styles.css';
+// import logo from './KomischeKatzenLogo.png';
 
-const AdjustForMobile = () => {
-  const isMobile = useMediaQuery({ query: '(max-width: 600)' });
-}
+// function App() {
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//         <div>
+//           <img src={logo} alt="Logo"/>
+//         </div>
+//       </header>
+//     </div>
+//   );
+// }
 
-function App() {
+const App = () => {
+  const screenSize = useScreenSize();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <div>
-          <AdjustForMobile/>
-          <img src={logo} alt="Logo"/>
-        </div>
-      </header>
+    <div className={`container ${screenSize}`}>
+      <h1>Responsive React App</h1>
+      <p>Current screen size: {screenSize}</p>
     </div>
   );
-}
+};
 
 export default App;

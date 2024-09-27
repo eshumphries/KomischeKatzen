@@ -16,9 +16,3 @@
 .App-link {
   color: #61dafb;
 }
-
-@media (max-width: 600px) {
-  .container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
