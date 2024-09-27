@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/KomischeKatzen/static/css/main.e9ae04e8.css",
-    "main.js": "/KomischeKatzen/static/js/main.689465c7.js",
+    "main.css": "/KomischeKatzen/static/css/main.dbb1abaf.css",
+    "main.js": "/KomischeKatzen/static/js/main.f2ad6789.js",
     "static/js/453.8e4d4a28.chunk.js": "/KomischeKatzen/static/js/453.8e4d4a28.chunk.js",
     "index.html": "/KomischeKatzen/index.html",
-    "main.e9ae04e8.css.map": "/KomischeKatzen/static/css/main.e9ae04e8.css.map",
-    "main.689465c7.js.map": "/KomischeKatzen/static/js/main.689465c7.js.map",
+    "main.dbb1abaf.css.map": "/KomischeKatzen/static/css/main.dbb1abaf.css.map",
+    "main.f2ad6789.js.map": "/KomischeKatzen/static/js/main.f2ad6789.js.map",
     "453.8e4d4a28.chunk.js.map": "/KomischeKatzen/static/js/453.8e4d4a28.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9ae04e8.css",
-    "static/js/main.689465c7.js"
+    "static/css/main.dbb1abaf.css",
+    "static/js/main.f2ad6789.js"
   ]
 }
