@@ -16,3 +16,8 @@
 .App-link {
   color: #61dafb;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
